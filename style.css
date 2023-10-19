@@ -11,11 +11,13 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(34, 46, 32);
+
 }
 
 .form {
     width: 400px;
     height: 600px;
+
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
@@ -41,7 +43,7 @@ textarea {
 
 
 button {
-    background-color: rgb(34, 46, 32);
+    background-color: rgb(33, 32, 46);
     color: white;
     height: 40px;
     width: 150px;
