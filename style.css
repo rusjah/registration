@@ -10,12 +10,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(33, 32, 46);
+    background-color: rgb(34, 46, 32);
+
 }
 
 .form {
     width: 400px;
-    height: 400px;
+    height: 600px;
+
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
@@ -25,13 +27,17 @@ body {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-    box-shadow: 0 0 40px black;
+    box-shadow: 0 0 40px rgb(162, 197, 180);
     border-radius: 20px;
 }
 
 input {
     height: 30px;
     border-radius: 20px;
+    margin-bottom: 6px;
+}
+
+textarea {
     margin-bottom: 6px;
 }
 
